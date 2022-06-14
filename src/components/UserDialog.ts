@@ -2,6 +2,7 @@ import Dialog from "../elements/Dialog";
 import Button from "../elements/Button";
 import UserDetail from "./UserDetail";
 
+// concern: dialog(open, close, display)
 export default class UserDialog extends Dialog {
   private static ids = {
     open: "user-dialog-open",

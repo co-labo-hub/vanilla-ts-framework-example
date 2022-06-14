@@ -1,5 +1,6 @@
 import Div from "../elements/Div";
 
+// concern: user infomation (display, providing getter/setter)
 export default class UserDetail {
   private static ids = {
     name: "user-name",
